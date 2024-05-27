@@ -398,3 +398,13 @@ footer .social-media-link:hover,
 footer .social-media-link:focus {
   background-color: #31d0aa;
 }
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.backdrop {
+  display: none;
+}
+.backdrop.is-open {
+  display: block;
+}
